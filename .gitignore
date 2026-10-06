@@ -1,0 +1,37 @@
+# --- Word / Office 临时文件 ---
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+*.tmp
+*.wbk
+.~*.*
+
+# --- 爬虫输出数据（生成文件，不入库） ---
+*.xlsx
+*.xls
+*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- 日志 ---
+*.log
+
+# --- 编辑器 / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- 操作系统 ---
+Thumbs.db
+Desktop.ini
+.DS_Store
